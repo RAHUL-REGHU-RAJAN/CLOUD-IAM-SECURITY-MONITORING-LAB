@@ -1,0 +1,35 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "ListDevelopmentBucket",
+			"Effect": "Allow",
+			"Action": [
+				"s3:ListBucket"
+			],
+			"Resource": "arn:aws:s3:::nexora-dev-data-684"
+		},
+		{
+			"Sid": "ManageDevelopmentObjects",
+			"Effect": "Allow",
+			"Action": [
+				"s3:GetObject",
+				"s3:PutObject",
+				"s3:DeleteObject"
+			],
+			"Resource": "arn:aws:s3:::nexora-dev-data-684/*"
+		},
+		{
+			"Sid": "MisconfiguredFinanceReadAccess",
+			"Effect": "Allow",
+			"Action": [
+				"s3:ListBucket",
+				"s3:GetObject"
+			],
+			"Resource": [
+				"arn:aws:s3:::nexora-finance-data-684",
+				"arn:aws:s3:::nexora-finance-data-684/*"
+			]
+		}
+	]
+}
