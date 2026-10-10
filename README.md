@@ -112,7 +112,7 @@ Potential future enhancements include automated alerts for unexpected cross-team
 
 ## 📚 8. Project Documentation
 
-📄 **[View Full Project Report (PDF)](Documentation/CLOUD%20IAM%20PROJECT.pdf)**
+📄 **[View Full Project Report (PDF)](Documentation/CLOUD%20IAM%20PROJECT%20.pdf)**
 
 Explore the complete report covering the lab architecture, IAM configuration, controlled misconfiguration assessment, CloudTrail and Athena investigation, remediation, and validation evidence.
 
